@@ -10,7 +10,10 @@
     <content src="index.html" />
   
     <!-- <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>-->
-
+<gap:plugin name="org.apache.cordova.device" source="pgb"/>
+<gap:plugin name="org.apache.cordova.inappbrowser" source="pgb"/>
+<gap:plugin name="org.apache.cordova.splashscreen" source="pgb"/>
+    
     <access origin="*" />
     <access origin="https://www.ovplatform.tk/el5rog/www/" />
     <allow-intent href="http://*/*" />
