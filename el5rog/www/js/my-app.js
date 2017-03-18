@@ -1,7 +1,7 @@
    function onDeviceReady() {
          var ref;
 	   var inAppBrowserbRef;
-	   
+	   alert('ready');
        inAppBrowserbRef = cordova.InAppBrowser.open('https://www.ovplatform.tk/el5rog/www/', '_blank', 'location=no,toolbar=no');
          inAppBrowserbRef.addEventListener('loadstart', inAppBrowserbLoadStart);
          inAppBrowserbRef.addEventListener('loadstop', inAppBrowserbLoadStop);
@@ -10,6 +10,7 @@
 		admob.initAdmob("ca-app-pub-7251676025279948/7827344712","ca-app-pub-7251676025279948/5792208319");
 		admob.showBanner(admob.BannerSize.BANNER, admob.Position.BOTTOM_APP);
 inAppBrowserbRef.show();
+	   alert('end of ready');
     
     }
 // Initialize your app
