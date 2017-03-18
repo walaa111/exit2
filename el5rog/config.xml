@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
   
-     <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+    <!-- <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>-->
 
     <access origin="*" />
     <access origin="https://www.ovplatform.tk/el5rog/www/" />
