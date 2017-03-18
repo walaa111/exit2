@@ -128,8 +128,9 @@ function initApp() {
             autoShow : true
         });
     }
-	  document.addEventListener("deviceready", onDeviceReady, false);
-	
+	  //document.addEventListener("deviceready", onDeviceReady, false);
+	alert('start');
+	onDeviceReady();
 
 }
 
